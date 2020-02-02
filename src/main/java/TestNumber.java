@@ -6,7 +6,7 @@ public class TestNumber {
                 }
                catch (Exception e) { System.out.println("exc"); }
                 doStuff(args);
-             }
+             }final
   static int doStuff(String[] args) {
                  return Integer.parseInt(args[0]);
               }
