@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>head</title>
+
+</head>
+<body>
+
+<h1 style="background-color:#4531ff;">this is body</h1>
+<a href="http://www.baidu.com">baidu</a>
+
+<form action="/action_page.php">
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse">
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+
+
+<p id="me">
+
+</p>
+
+<script>
+    console.log("message")
+    var a = 7
+    var b = 8
+    var result = b-a
+    console.log(result)
+
+    document.getElementById("me").innerText="hello"
+
+    var xhr = new XMLHttpRequest()
+    xhr.open('GET','http://127.0.0.1:8887')
+    xhr.send()
+
+
+</script>
+</body>
+</html>
